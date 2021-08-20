@@ -1,0 +1,53 @@
+= Documentation
+:toc: macro
+:toc title: Contents
+
+toc::[]
+
+== Install IntelliJ
+
+IntelliJ is the tool you will use to write Java applications. It is an Integrated Development Environment (IDE) which means it has a suite of useful tools and functions to assist you in this task.
+
+The Community Edition of IntelliJ is free to use and open source.
+
+NOTE: This guide is for IntelliJ Community Edition 2021.2.
+
+****
+* [ ] https://www.jetbrains.com/idea/download[Download] and install IntelliJ Community Edition.
+* [ ] Open IntelliJ and accept the User Agreement.
+****
+
+=== Creating a new project
+
+When you open IntelliJ, you will be presented with a welcome screen from which you can create projects. A project is
+a directory where you will store the Java code that makes up your application.
+
+image::intellij-welcome-screen.png[IntelliJ Welcome Screen]
+
+**Click "New Project".**
+
+== Project type
+
+The next screen lets you choose what kind of application you will write. "Java" should already be selected in the top
+left.
+
+Java applications are executed using the Java Software Development Kit (SDK). IntelliJ comes bundled with a version of
+the Java SDK which you will see listed in the top center.
+
+This guide is for Java 11.
+
+Click "Next".
+
+== Project templates
+
+This screen lets you generate a project from a template. We won't be using this.
+
+Click "Next".
+
+== Project location
+
+This final screen lets you choose where your project will be saved.
+
+For "Project name", enter "hello" and Click "Finish".
+
+== The project
